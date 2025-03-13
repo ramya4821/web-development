@@ -1,0 +1,22 @@
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    animation: bouncing-ball 8s ease  reverse,chageColor 10s ease 4 ;
+}@keyframes bouncing-ball{
+    0%{
+
+    }
+    50%{
+        transform: translateY(500px);
+        border-radius: 50%;
+    }
+}@keyframes chageColor{
+    10%{
+        background-color: red;
+    }
+    20%
+    {
+        background-color: yellow;
+    }
+}#shin
