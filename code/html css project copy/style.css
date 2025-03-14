@@ -33,8 +33,9 @@ h2{
         margin: 20px 0px;
     padding: 0px ;
     background-color: black;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px var(--primary-color)
+
+    border-radius: 15px;
+    box-shadow: 5px 15px 5px var(--primary-color)
     }
  li>a:hover
 {
@@ -99,9 +100,10 @@ h2{
     border-radius: 20px;
     background-color: white;
     color:black;
-    row-gap: 10pxb;
+    row-gap: 10px;
     background-size: contain;
     transform: all 0.5s;
+    margin-right: 25px;
     
 }button:hover{
     background-color:  #666362;
@@ -173,15 +175,15 @@ ul{
     gap: 20px;
     font-size: 20px;
     }
+    li{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
     li img{
         width: 100px;
         height: 100px;
-    }
-
-    .li{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
     }
     /*end*/
 }/*project*//
