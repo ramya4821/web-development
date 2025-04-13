@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+
+}body{
+    background-color: black;
+}
+p{
+    color: white;
+}.parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+} 
+.content{
+    margin: 10px;
+}
+ul{
+    
+    display: flex;
+    flex-direction: row;
+list-style: none;
+    
+    
+
+}
+li a{
+    padding: 10px;
+    margin: 20px;
+    font-size: 24px;
+    color: white;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    
+    
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+li a:hover{
+    transform: scale(1.1);
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+} 
+img{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: flex;
+    width: 700px;
+    height: 600px;
+    margin: 10px;
+    padding: 20px;
+}.child{
+justify-content: end;
+}
+h2{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}p{
+    margin: 10px;
+    font-size: 18px;
+}button{
+    
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 23px;
+    font-weight: 300px;
+    
+}
+button a{
+    text-decoration: none;
+    color: black;
+    transform: all 0.3s;
+    
+}
+button:hover{
+    transform: scale(1.1);
+
+}
+@media (min-width:480px) and (max-width:780px){
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .child{
+        grid-row:2;
+        font-size: 18px;
+    }
+    img{
+        height: auto;
+    }
+}
+/*about start*/
+li img{
+    width: 100px;
+    height: auto;
+} 
+ /*contact*/
+ .contact a{
+    text-decoration: none;
+    color: white;
+    background-color: darkgoldenrod;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px;
+ }.row
+ {
+    display: flex;
+ }.row img{
+    width: 100px;
+    height: auto;
+ }.row button{
+    height: auto;
+    width: 200px;
+ }
+
+
+
+
+
